@@ -5,42 +5,95 @@ body {
     background-color: #333; /* Cor de fundo */
     color: #ddd; /* Cor do texto */
 }
+
 .container {
+    font-size: 1em;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
+
+.container li{
+    font-size: 1.2em;
+}
+
 .nome-software p{
     font-weight: bold;
 }
+
 h1 {
     color: #eee; /* Cor do título */
 }
+
 p {
     color: #ccc; /* Cor do texto do parágrafo */
     text-align: justify;
 }
+
 ul {
     margin-left: 20px;
     list-style: none;
     padding: 0;
 }
+
 li {
     margin-bottom: 10px;
     text-align: left;
 }
+
 .link-container {
     margin-top: 20px;
 }
+
 a {
     color: #9cf; /* Cor dos links */
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h2{
     text-align: left;
     margin-left: 10px;
+}
+
+footer {
+    background-color: #f2f2f238; /* Cor de fundo do rodapé (opcional) */
+    padding: 20px 0; /* Espaçamento interno superior e inferior (opcional) */
+}
+
+footer p {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove a margem padrão do parágrafo */
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons i {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ffffff; /* Cor dos ícones */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Cor dos ícones ao passar o mouse */
+}
+
+#direitos{
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    background-color: #333; /* Cor de fundo */
 }
